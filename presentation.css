@@ -1,0 +1,89 @@
+/* A quiet first frame. Controls appear near an edge or when reached by keyboard. */
+.presentation-home .experience { height:100svh; min-height:580px; }
+.presentation-home .experience-top,.presentation-home .scene-pagination,.presentation-home .experience-info,.presentation-home .scene-selector,.presentation-home .scene-step,.presentation-home .model-toolbar,.presentation-home .room-caption { display:none; }
+.presentation-home .site-header { position:fixed; top:18px; min-height:76px; padding:1rem 1.5rem; width:min(1180px,calc(100% - 48px)); border:1px solid #d7e5ea20; border-radius:16px; background:#091116db; backdrop-filter:blur(24px); opacity:0; pointer-events:none; transform:translateY(-25px); transition:opacity .7s ease,transform .85s cubic-bezier(.22,1,.36,1); z-index:60; }
+.presentation-home.presentation-top-visible .site-header,.presentation-home.presentation-content .site-header,.presentation-home.is-keyboard .site-header:focus-within { opacity:1; pointer-events:auto; transform:translateY(0); }
+.presentation-home .experience::before { height:18%; background:linear-gradient(#03070990,transparent); }
+.presentation-home .experience::after { height:20%; background:linear-gradient(transparent,#05090bba); }
+.presentation-home .experience-art { transform:translateY(calc(var(--presentation-progress,0)*65px)) scale(calc(1 - var(--presentation-progress,0)*.035)); opacity:calc(1 - var(--presentation-progress,0)*.65); transform-origin:center; }
+.presentation-invitation { position:absolute; z-index:35; bottom:30px; left:50%; width:min(640px,calc(100% - 40px)); transform:translate(-50%,24px); opacity:0; pointer-events:none; transition:opacity .65s ease,transform .85s cubic-bezier(.22,1,.36,1); }
+.presentation-bottom-visible .presentation-invitation,.is-keyboard .presentation-invitation:focus-within { opacity:1; pointer-events:auto; transform:translate(-50%,0); }
+.presentation-enter { display:flex; align-items:center; justify-content:space-between; gap:2rem; padding:1.3rem 1.6rem; background:#10191ee3; backdrop-filter:blur(24px); border:1px solid #d6e7ed40; border-radius:14px; color:#e9f1f3; box-shadow:0 20px 80px #0005; }
+.presentation-enter small { display:block; color:#a1b6c0; font-size:.6rem; letter-spacing:.12em; text-transform:uppercase; margin-bottom:.45rem; }
+.presentation-enter strong { font-size:clamp(1rem,1.8vw,1.45rem); font-weight:500; letter-spacing:-.035em; }
+.presentation-enter > span:last-child { display:grid; place-items:center; width:42px; height:42px; border:1px solid #a1bcc14d; border-radius:50%; transition:transform .35s; }
+.presentation-enter:hover > span:last-child { transform:translateY(4px); }
+.presentation-tools { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:1.5rem; padding-top:.7rem; }
+.presentation-tools button { background:none; border:0; color:#c2d0d6; font-size:.62rem; min-height:34px; padding:.3rem; }
+.presentation-tools button:disabled { color:#8a9ba3; }
+.presentation-touch-menu { display:none; }
+.presentation-home #catalog { scroll-margin-top:120px; }
+.presentation-home .experience:not(.has-3d) .scene-art[data-art] { display:block!important; inset:25% auto auto; width:26%; height:48%; }
+.presentation-home .experience:not(.has-3d) [data-art="work"] { left:5%; }
+.presentation-home .experience:not(.has-3d) [data-art="sound"] { left:37%; }
+.presentation-home .experience:not(.has-3d) [data-art="connect"] { left:69%; }
+.presentation-home .scene-reflection { display:none; }
+@media(max-width:768px) {
+ .presentation-home .site-header { top:12px; width:calc(100% - 24px); padding:.8rem 1rem; }
+ .presentation-home .site-header .mobile-menu { margin-top:.5rem; }
+ .presentation-invitation { bottom:20px; }
+ .presentation-enter { padding:1rem 1.15rem; gap:1rem; }
+ .presentation-tools { gap:1rem; }
+}
+@media(max-width:768px),(hover:none),(pointer:coarse) {
+ .presentation-touch-menu { display:block; position:absolute; top:22px; right:22px; z-index:65; min-height:44px; padding:.55rem 1rem; border:1px solid #b5cbd53b; border-radius:40px; color:#dce6e9; background:#091116b8; backdrop-filter:blur(16px); }
+ .presentation-top-visible .presentation-touch-menu { opacity:0; pointer-events:none; }
+ .presentation-invitation { opacity:1; pointer-events:auto; transform:translate(-50%,0); }
+ .presentation-enter { background:#0911168c; }
+}
+@media(prefers-reduced-motion:reduce) {
+ .presentation-home .experience-art { transform:none; opacity:1; }
+ .presentation-home .site-header,.presentation-invitation { transition:none; }
+}
+.presentation-home .skip-link { opacity:0; pointer-events:none; z-index:80; }
+.presentation-home .skip-link:focus { opacity:1; pointer-events:auto; }
+@media(max-width:768px) { .presentation-home #catalog { scroll-margin-top:180px; } }
+
+/* Cinematic entrance and refractive silver lettering. */
+.arrival { position:relative; width:100vw; margin-left:calc(50% - 50vw); height:100svh; min-height:580px; overflow:hidden; background:#050505; isolation:isolate; }
+.arrival-plate { position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,#050505 35%,#576064 49%,#bbc9cd 50%,#576064 51%,#050505 65%); }
+.arrival-video { width:100%; height:100%; object-fit:cover; object-position:50% 50%; opacity:.88; }
+.arrival-plate::after { content:""; position:absolute; inset:0; background:linear-gradient(0deg,#05090b,transparent 35%,#05050520 75%,#05050580),linear-gradient(90deg,#050505b3,transparent 30%,transparent 70%,#050505b3); }
+.arrival-copy { position:absolute; left:0; top:42%; width:100%; text-align:center; transform:translateY(-50%); pointer-events:none; }
+.arrival-copy p,.bestsellers-heading p { font-size:.6rem; font-weight:500; letter-spacing:.32em; text-transform:uppercase; color:#cfdbdf9e; margin:0 0 1.5rem; }
+.liquid-type { font-weight:500; letter-spacing:-.075em; line-height:1.1; color:#d9e4e7; }
+@supports(background-clip:text) {
+ .liquid-type { color:transparent; background:linear-gradient(172deg,#ffffffeb 4%,#e0f4f7a6 25%,#71838f65 41%,#f5ffffed 48%,#bddde063 54%,#eefbffce 65%,#748b9b5c 86%,#e5f6ffdb); background-size:100% 180%; background-position:50% 30%; background-clip:text; -webkit-background-clip:text; -webkit-text-stroke:.65px #e9f7ff70; text-shadow:0 1px 1px #ffffff24,0 12px 36px #0005; }
+}
+.arrival-copy h1 { font-size:clamp(4.2rem,12.5vw,13.5rem); margin:0; padding:0 .08em .15em 0; }
+.arrival-next { position:absolute; bottom:8%; left:50%; transform:translateX(-50%); display:flex; flex-direction:column; align-items:center; gap:1.2rem; color:#d1d8db; font-size:.68rem; letter-spacing:.07em; text-align:center; width:max-content; max-width:80%; }
+.arrival-next span:last-child { display:grid; place-items:center; width:42px; height:42px; border:1px solid #e6f6ff45; border-radius:50%; background:#e8faff08; backdrop-filter:blur(12px); transition:transform .5s; }
+.arrival-next:hover span:last-child { transform:translateY(5px); }
+.arrival-pause { position:absolute; bottom:35px; right:35px; width:40px; height:40px; border-radius:50%; border:1px solid #ffffff28; background:#05050550; color:#d6e5e9; }
+.bestsellers-heading { position:absolute; z-index:8; left:0; right:0; top:9%; text-align:center; pointer-events:none; }
+.bestsellers-heading p { margin-bottom:.65rem; font-size:.52rem; }
+.bestsellers-heading h2 { font-size:clamp(2.6rem,5.8vw,6rem); margin:0; }
+.model-price-label { position:absolute; z-index:15; text-align:center; width:180px; transform:translate(-50%,8px); opacity:0; pointer-events:none; transition:opacity .5s,transform .6s; color:#d0dbdfc7; text-shadow:0 2px 12px #000; }
+.model-price-label span { display:block; font-size:.6rem; margin-bottom:.45rem; letter-spacing:.04em; }
+.model-price-label strong { font-size:.9rem; font-weight:400; }
+.model-price-label.is-visible { opacity:1; transform:translate(-50%,0); }
+@media(prefers-reduced-motion:no-preference) { .arrival-copy { animation:arrival-reveal 1.4s cubic-bezier(.22,1,.36,1) both; } .liquid-type { animation:glass-shimmer 12s ease-in-out infinite alternate; } }
+@keyframes arrival-reveal { from { opacity:0; filter:blur(12px); transform:translateY(calc(-50% + 20px)); } to { opacity:1; filter:blur(0); transform:translateY(-50%); } }
+@keyframes glass-shimmer { to { background-position:50% 85%; } }
+@media(max-width:768px) { .arrival-video { object-position:43% center; } .arrival-copy { top:43%; } .arrival-copy p { font-size:.5rem; letter-spacing:.22em; } .arrival-pause { right:20px; bottom:20px; } .bestsellers-heading { top:15%; } .model-price-label { width:110px; } .model-price-label span { font-size:.5rem; } .model-price-label strong { font-size:.7rem; } }
+
+@media(max-width:768px),(hover:none),(pointer:coarse) { .presentation-touch-menu { position:fixed; } .presentation-content .presentation-touch-menu { display:none; } }
+
+/* Keep the small introduction legible over the bright moving portal. */
+.arrival-copy p { display:table; width:auto; max-width:calc(100% - 40px); margin:0 auto 1.5rem; padding:.7rem 1.1rem; border:1px solid #ffffff24; border-radius:999px; background:#080d13c7; backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); color:#f1f5f7; text-shadow:0 1px 3px #0008; font-weight:600; line-height:1.4; }
+
+/* Floating glass signature: above the portal, separate from the wordmark. */
+.arrival-copy p { position:absolute; bottom:calc(100% + clamp(2.5rem,7vh,5rem)); left:50%; transform:translateX(-50%); margin:0; width:max-content; padding:.8rem 1.45rem; border:1px solid #f1fbff36; border-top-color:#ffffff8a; border-bottom-color:#bedbe51c; border-radius:999px; background:linear-gradient(165deg,#e9f8ff1f 0%,#d1eaf506 42%,#09121d32 64%,#d7f3ff12 100%); backdrop-filter:blur(18px) saturate(135%); -webkit-backdrop-filter:blur(18px) saturate(135%); box-shadow:inset 0 1px 1px #ffffff3b,inset 0 -1px 2px #d8f2ff12,0 8px 28px #0000001f; color:#ecf4f7e8; font-weight:500; font-size:.6rem; letter-spacing:.25em; text-shadow:0 1px 5px #000b; white-space:nowrap; }
+.arrival-copy p::after { content:""; position:absolute; left:20%; right:20%; top:0; height:1px; background:linear-gradient(90deg,transparent,#ffffffc7,transparent); }
+@media(max-width:768px) { .arrival-copy p { bottom:calc(100% + 3.25rem); padding:.75rem 1.1rem; font-size:.53rem; letter-spacing:.2em; } }
+
+/* Quiet lettering shares the wordmark finish, without a surrounding capsule. */
+.arrival-copy p.liquid-type { bottom:calc(100% + clamp(4rem,10vh,7rem)); padding:0; border:0; border-radius:0; box-shadow:none; backdrop-filter:none; -webkit-backdrop-filter:none; background:none; color:#b6c3cb; opacity:.78; font-weight:400; text-shadow:0 1px 6px #0008; }
+.arrival-copy p.liquid-type::after { content:none; }
+@supports(background-clip:text) { .arrival-copy p.liquid-type { color:transparent; background:linear-gradient(172deg,#ffffffeb 4%,#e0f4f7a6 25%,#71838f65 41%,#f5ffffed 48%,#bddde063 54%,#eefbffce 65%,#748b9b5c 86%,#e5f6ffdb); background-size:100% 180%; background-position:50% 30%; background-clip:text; -webkit-background-clip:text; -webkit-text-stroke:.15px #e9f7ff45; } }
+@media(max-width:768px) { .arrival-copy p.liquid-type { bottom:calc(100% + 4.75rem); } }

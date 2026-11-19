@@ -1,0 +1,73 @@
+iPhone 5s — https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp
+iPhone 6 — https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp
+Apple MacBook Pro 14 Inch Space Grey — https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp
+Asus Zenbook Pro Dual Screen Laptop — https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp
+Apple Watch Series 4 — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/thumbnail.webp
+Classic Leather Watch — https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp
+Apple AirPods — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp
+Apple AirPods Max — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/thumbnail.webp
+Beats Flex — https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/thumbnail.webp
+Apple iPad mini 2021 — https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/thumbnail.webp
+Samsung Galaxy Tab S8+ — https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/thumbnail.webp
+Samsung Galaxy Tab — https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/thumbnail.webp
+Apple HomePod mini — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/thumbnail.webp
+Amazon Echo Plus — https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp
+Apple iPhone 13 Pro — https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp
+Samsung Galaxy S10 — https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp
+Huawei MateBook X Pro — https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp
+Dell XPS 13 9300 — https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp
+Адаптер питания Apple — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/thumbnail.webp
+Apple MagSafe Battery Pack — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/thumbnail.webp
+Чехол MagSafe для iPhone 12 — https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/thumbnail.webp
+Монопод для камеры — https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/thumbnail.webp
+Селфи-лампа с держателем — https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/thumbnail.webp
+Селфи-палка — https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/thumbnail.webp
+
+Manrope: https://github.com/google/fonts/tree/main/ofl/manrope (SIL Open Font License; license: fonts/OFL.txt). Local font files, weights 400–800.
+
+Showroom images (same existing products; 1000 × 1000):
+AirPods Max — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp
+MacBook Pro — https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp
+iPhone 13 Pro, front — https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp
+Reference video чпт.mp4 was used only for art direction; not published or embedded.
+
+Крупные фотографии того же ассортимента (assets/large):
+product-1.webp — https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp
+product-2.webp — https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp
+product-3.webp — https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp
+product-4.webp — https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp
+product-5.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp
+product-6.webp — https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp
+product-7.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp
+product-8.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp
+product-9.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/beats-flex-wireless-earphones/1.webp
+product-10.webp — https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp
+product-11.webp — https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp
+product-12.webp — https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp
+product-13.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp
+product-14.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp
+product-15.webp — https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/2.webp
+product-16.webp — https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/1.webp
+product-17.webp — https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp
+product-18.webp — https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp
+product-19.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp
+product-20.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp
+product-21.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp
+product-22.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/monopod/1.webp
+product-23.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-lamp-with-iphone/1.webp
+product-24.webp — https://cdn.dummyjson.com/product-images/mobile-accessories/selfie-stick-monopod/1.webp
+
+Three.js 0.180.0: https://github.com/mrdoob/three.js — MIT, текст лицензии assets/vendor/THREE-LICENSE.txt.
+RoomEnvironment.js: официальный examples/jsm/environments/RoomEnvironment.js; import изменён на локальный путь.
+Ранние процедурные модели в detailed-products.js сохранены как история разработки и больше не загружаются. Текущие источники GLB описаны ниже и в models/ATTRIBUTION.md.
+
+AirPods Max GLB — Mr.Philin, https://sketchfab.com/3d-models/airpods-max-05181e126a6341668ca95f2d98324d30, CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Полные сведения об изменениях: models/ATTRIBUTION.md.
+
+Current hero models (30 September): MacBook Pro 14 from appariciojunior/motion-studio-open, Apache-2.0 source LICENSE/NOTICE preserved. iPhone 13 Pro from PrathamGwari/Iphone13-ThreeJs, explicit redistribution license not found. See models/ATTRIBUTION.md for URLs and rights status.
+Refero Styles research: https://styles.refero.design/style/3416bd14-96bb-4c23-bd01-b2ea178ba5ce and https://styles.refero.design/style/e11be5e4-cd8f-410e-bfe1-8763ed62fac3 . Used layout principles; no fonts, code or imagery copied.
+
+MotionSites research (30 September 2026): https://motionsites.ai/?prompt=3d-collectible-hero — free prompt read through Copy full prompt; original carousel implementation adapted to Three.js. https://motionsites.ai/?prompt=shadow-3d and https://motionsites.ai/?prompt=obsidian — public previews only; paid prompts not accessed.
+
+Cinematic arrival: CloudFront video URL supplied in user prompt (2026-09-30), embedded remotely without copying.
+https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_112712_da9d53df-6d27-4b12-bdf6-aa9dc2622bdf.mp4
+Card composition reference: public Orbis Cards preview https://motionsites.ai/?prompt=orbis-cards (no paid source copied).
